@@ -1,1 +1,1 @@
-Qualquer coisa
+Seja bem vindo ao meu site JDM aqui você vai conhecer muito sobre esse mundo de carros japoneses garanto que vai gostar!
