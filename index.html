@@ -1,28 +1,55 @@
-    <!DOCTYPE html>
-    <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>JDM</title>
-        <link rel="shortcut icon" href="imagens\japao.ico" type="image/x-icon">
-    </head>
-    <body>
-        <h1>MENU</h1>
-        <h2><a href= "index.html" >Página inicial</a></h2>
-        <h2><a href= "galeria.html" rel"next" >Galeria</a></h2>
-        <h2><a href= "suporte.html" rel"next" >Suporte</a></h2>
-        <h2><a href= "motores.html" rel"next" >Motores</a></h2>
-        <h3><a href= "marcas.html" rel"next" >Marcas</a></h3>
-        <h1>O que é JDM?</h1>
-        <p>Os famosos carros japoneses que botam BMW e Mercedes pra mamar gostoso</p>
-        <p>Eles se constituem na maioria das vezes obviamente de carros japoneses teoricamente comuns, mas totalene modificados, com turbo, body kit, aerofólio, e todo tipo de tunagem, e pra cada tipo de tunagem existe um objetivo, como carros tunados para drift ou até mesmo corrida é impressionane como esses carros ficam potentes</p>
-        <p>Um filme que popularizou muito essa cultura foi o Velozes e Furiosos mostrando bem como funciona essa cultura de modificação de carros quem não conhece o Supra laranja do Brian né?</p>
-        <p>O carro na imagem abaixo é um RX-7 conheça um pouco sobre ele baixando esse pdf.</p>
-    <ul>  
-     <li> <a href= "mazda\rx7.pdf" download="rx7.pdf"type="application/pdf" >Baixe o pdf aqui</a></li>
-    </ul>
-        <br>
-        <img src="imagens\mazdaB.jpg"alt="mazda branco tunado">
-    </body>
-    </html>
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JDM</title>
+    <link rel="shortcut icon" href="imagens\favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <h1>MENU</h1>
+    <h2><a href="index.html">Página inicial</a></h2>
+    <h2><a href="galeria.html" rel="next">Galeria</a></h2>
+    <h2><a href="suporte.html">Suporte</a></h2>
+    <h2><a href="motores.html">Motores</a></h2>
+    <h3><a href="lubrificacao.html">Lubrificação recomendada</a></h3>
+    <h3><a href="arrefecimento.html">Arrefecimento recomendado</a></h3>
+    <h2><a href="marcas.html">Marcas</a></h2>
+    <h1>O que é JDM?</h1>
+    <p>Os famosos carros japoneses que botam BMW e Mercedes pra mamar gostoso</p>
+    <p>Eles se constituem na maioria das vezes obviamente de carros japoneses teoricamente comuns, mas totalene
+        modificados, com turbo, body kit, aerofólio, e todo tipo de tunagem, e pra cada tipo de tunagem existe um
+        objetivo, como carros tunados para drift ou até mesmo corrida é impressionane como esses carros ficam potentes
+    </p>
+    <p>Um filme que popularizou muito essa cultura foi o Velozes e Furiosos mostrando bem como funciona essa cultura de
+        modificação de carros quem não conhece o Supra laranja do Brian né?</p>
+    <p>O carro na imagem no final da página é um RX-7 conheça um pouco sobre ele baixando esse pdf.</p>
+    <p><a href="mazda\rx7.pdf" download="rx7.pdf" type="application/pdf"> Baixe o pdf aqui</a></p>
+    <p>Veja também um RX-7 fazendo um lindo 2-step</p>
+    <video controls>
+        <source src="midia/2step.mp4" type="video/mp4">
+        <source src="midia/2stepM.m4v">
+        <source src="midia/2stepW.webm">
+        <source src="midia/2stepO.ogv">
+        <p>Não foi possível carregar o vídeo</p>
+    </video>
+    <br>
+    <p>Conheça a música de um dos melhores jogos com varios desses carros</p>
+    <audio controls preload="metadata" loop>
+        <source src="midia/mp3snoop.mp3" type="audio/mpeg">
+        <source src="midia/oggsnoop.ogg" type="audio/ogg">
+        <source src="midia/wavsnoop.wav" type="audio/wav">
+        <p>Erro, não foi possível carregar esse arquivo</p>
+    </audio>
+    <br>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/mazdabp.jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/mazdabm.jpg">
+        <img src="imagens/mazdabg.jpg" alt="Mazda branco tunado">
+    </picture>
+</body>
+
+</html>
