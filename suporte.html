@@ -11,22 +11,28 @@
 </head>
 
 <body>
-    <h1>MENU</h1>
-    <h2><a href="index.html" rel="prev">Página inicial</a></h2>
-    <h2><a href="galeria.html">Galeria</a></h2>
-    <h2><a href="suporte.html">Suporte</a></h2>
-    <h2><a href="motores.html" rel="next">Motores</a></h2>
-    <h3><a href="lubrificacao.html">Lubrificação recomendada</a></h3>
-    <h3><a href="arrefecimento.html">Arrefecimento recomendado</a></h3>
-    <h2><a href="marcas.html">Marcas</a></h>
+    <nav>
+        <a href="index.html" rel="prev">Página inicial</a>
+        <a href="galeria.html">Galeria</a>
+        <a href="suporte.html">Suporte</a>
+        <a href="motores.html" rel="next">Motores</a>
+        <a href="lubrificacao.html">Lubrificação</a>
+        <a href="arrefecimento.html">Arrefecimento</a>
+        <a href="marcas.html">Marcas</a>
+    </nav>
+    <br>
+    <main>
         <h1>Olá você está no suporte!</h1>
         <p>Aqui você pode falar com nosso amigo mecânico asiático, todas as reclamações podem ser direcionadas a ele.
         </p>
-        <picture>
-            <source media="(max-width: 750px)" srcset="imagens/suportep.jpg">
-            <source media="(max-width: 1050px)" srcset="imagens/suportem.jpg">
-            <img src="imagens/suporteg.jpg" alt="mecânico asiático">
-        </picture>
+        <div class="picture">
+            <picture>
+                <source media="(max-width: 750px)" srcset="imagens/suportep.jpg">
+                <source media="(max-width: 1050px)" srcset="imagens/suportem.jpg">
+                <img src="imagens/suporteg.jpg" alt="mecânico asiático">
+            </picture>
+        </div>
+    </main>
 </body>
 
 </html>

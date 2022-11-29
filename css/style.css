@@ -3,36 +3,82 @@
 body {
     background-color: #000000;
 }
+main {
+    border: 3px solid #F5F12C;
+    width: 1000px;
+    margin: auto;
+    padding: 12px 8px 12px 8px;
+    box-shadow: 20px 25px 70px  #F5F12C;
+    margin-bottom: 30px;
+}
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
 
+nav {
+    width: 900px;
+    border: 2px solid #F5F12C;
+    margin: auto;
+    padding: 30px;
+    background-color: #75754B;
+}
+nav > a{
+    margin: 28px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav > a:hover{
+    transition-duration: 1s;
+    background-color: #FFFFFF;
+    color: #720E07;
+    border-radius: 25%;
+}
 p {
     color: #F5F12C;
+    padding-bottom: 12px;
+    line-height: 1em;
+    text-align: justify;
+    text-indent: 22px;
 }
 
 ul {
     background-color: #75754B;
+    
 }
+ol {
+    
+}
+
 
 li {
     color: #F5F12C;
+   
 }
 
 h1 {
     color: #F5F12C;
-    background-color: #75754B;
+    background-color: #000000;
+    text-align: center;
 }
 
 h2 {
     color: #F5F12C;
-    background-color: #75754B;
+    background-color: #000000;
+    text-align: center;
 }
 
 h3 {
     color: #F5F12C;
-    background-color: #75754B;
+    background-color: #000000;
+    text-align: center;
 }
 
 a {
     color: #FFFD7A;
+    text-align: center;
 }
 legend {
     color:#F5F12C;
